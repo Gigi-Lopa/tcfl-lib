@@ -47,8 +47,8 @@ app.post("/upload/",(req, res)=>{
 })
 async function open_dir(){
    const files =  await fs.readdir("uploads")
-   return console.log(files)
-}
+   /*return console.log(files)
+*/}
 function createDir(){
 
 }
